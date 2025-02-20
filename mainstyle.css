@@ -1,0 +1,159 @@
+body {
+    background-color: rgba(43, 45, 66, 1.0);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    height: 500px; /* Full height for the body */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack the elements vertically */
+}
+
+main {
+    flex: 1; /* This ensures the main content area takes up all available space */
+}
+
+.navbar {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the items */
+}
+
+.navbar li {
+    margin: 0 20px; /* Space between items */
+}
+
+.navbar a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 15px 20px; /* Padding for clickable area */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar button {
+    background-color: rgba(43, 45, 66, 1.0);
+    padding: 12px;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin: 5px; /* Space between buttons */
+}
+
+.btn {
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin: 5px; /* Space between buttons */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    color: #ffffff; /* Change text color on hover (optional) */
+}
+
+.hr-lines {
+    width: 100%;
+    color: white;
+}
+
+.grid-container {
+    margin-top: 30px;
+    border: none; /* Border around the div */
+    text-align: left; /* Center text inside the div */
+    border-radius: 5px; /* Rounded corners */
+    max-width: 420px; /* Maximum width of the div */
+    display: grid; /* Use grid layout */
+
+    grid-template-columns: auto 2fr; /* Two columns: one for the box, one for the text */
+}
+
+.image-container img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for the image */
+}
+
+.cat-images {
+    width: 559px;
+    height: 550px;
+}
+
+.text {
+    width: 700px;
+    height: 350px;
+    padding-top: 80px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.text p {
+    color: red;
+    margin: 1px;
+}
+
+.text2 {
+    color: white;
+    margin: 1px;
+}
+
+/* Style for the name */
+.name {
+    font-weight: bold; /* Make the name bold */
+    color: #ff6347; /* Optional: Give the name a distinct color */
+    font-size: 48px; /* Adjust size as necessary */
+    margin-left: 5px; /* Optional: Add some space between "I'm" and the name */
+}
+
+
+.resume-download {
+    width: 200px;
+    padding:10px;
+    margin-top: 25px;
+    margin-left: 200px;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Padding for the footer */
+    position: relative; /* Positioning context for absolute elements */
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+.footer-links {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-links li {
+    display: inline; /* Display links inline */
+    margin: 0 10px; /* Space between links */
+}
+
+.social-media {
+    margin-top: 1px; /* Space above social media links */
+}
+
+.social-media a {
+    color: white; /* Link color */
+    margin: 0 10px; /* Space between social media links */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-media a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.About-Me {
+ 
+
+}
